@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Tiro+Telugu&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    opacity: 0.8;
+}
+
+nav{
+    z-index: 30;
+}
+
+
+.menu__navegacion{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 12px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    border-radius: 200px;
+    width: 88px;
+    height: 88px;
+}
+
+.portada{
+    height: auto;
+    
+}
+
+.imgportada{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    object-fit: cover;
+}
+
+h1{
+    margin-top: 170px;
+    margin-left: 500px;
+    z-index: 10;
+    color: white;
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 390%;
+    
+    
+}
+
+svg{
+    display: flex;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.borde{
+    border: 5px solid black;
+}
+
+h2 {
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Tiro Telugu', serif;
+}
+
+.container{
+    display: grid;
+    width: 50%;
+    height: 35rem;
+    margin-top: 5rem;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,180px);
+    margin-left: 30rem;
+    grid-row-gap: 2rem;
+}
+
+.grillaFotos{
+    width: 15rem;
+}
+
+footer{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.li__footer{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+}
+
+
+/* Css Historia*/
+
+.historiaBang{
+    background-color: grey;
+}
+
+.tituloUno{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+}
+
+.textoPrincipal{
+    margin-bottom: 20px;
+}
